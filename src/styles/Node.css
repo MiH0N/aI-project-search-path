@@ -1,0 +1,47 @@
+.node {
+	width: 25px;
+	height: 25px;
+	outline: 1px solid rgb(201 201 201 / 72%);
+	display: inline-block;
+	cursor: pointer;
+}
+
+.node:hover {
+	background-color: rgb(201 201 201 / 29%);
+}
+
+.node-finish {
+	background-color: red;
+}
+
+.node-start {
+	background-color: green;
+}
+
+.node-visited {
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	transform: scale(0.3);
+	background-color: rgba(0, 0, 66, 0.75);
+	border-radius: 100%;
+}
+
+.node-wall {
+	background-color: #BCBCBC;
+}
+
+.node-shortest-path {
+	background-color: rgb(89, 89, 29);
+}
+
+.hover-class-clickWall:hover {
+	background-color: #BCBCBC !important;
+}
+
+.hover-class-setStartNode:hover {
+	background-color: green !important;
+}
+
+.hover-class-setFinishNode:hover {
+	background-color: red !important;
+}
